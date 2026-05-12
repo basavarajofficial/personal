@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, My Love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+  <div class="bg-particles" id="particles"></div>
+
+  <div class="card">
+    <div class="card-glow"></div>
+
+    <div class="photo-slot">
+      <img src="pic.png"  alt="Your photo" class="img" />
+    </div>
+
+    <div class="body">
+      <div class="eyebrow">Happy Birthday, Chinna</div>
+
+      <div class="title">You are my favourite<br>kind of everything.</div>
+
+      <div class="divider">
+        <div class="divider-line"></div>
+        <div class="divider-dot"></div>
+        <div class="divider-line"></div>
+      </div>
+
+      <div class="message">
+        Before you, I didn't know that love could feel<br>
+        this quiet and this full at the same time.<br><br>
+        Today the people you know gets to celebrate the day<br>
+        you were born — but every single day,<br>
+        I get to celebrate the gift of knowing you.<br><br>
+        You are seen <br>
+        You are cherished<br>
+        You are adored<br>
+        You are so deeply loved.
+      </div>
+
+      <div class="quote">
+        <div class="quote-text">
+          "I love you not only for what you are,<br>
+          but for what I am when I am with you."
+        </div>
+      </div>
+
+      <div class="sign">
+        <div class="sign-main">Forever yours</div>
+        <div class="sign-sub">with all my heart &nbsp;·&nbsp; always</div>
+      </div>
+    </div>
+
+    <div class="footer-bar"></div>
+  </div>
+
+  <!-- <script>
+    function loadPhoto(input) {
+      const file = input.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = e => {
+        const img = document.getElementById('photo');
+        img.src = e.target.result;
+        img.classList.add('loaded');
+        document.getElementById('placeholder').style.display = 'none';
+      };
+      reader.readAsDataURL(file);
+    }
+
+    const container = document.getElementById('particles');
+    for (let i = 0; i < 20; i++) {
+      const p = document.createElement('div');
+      p.className = 'particle';
+      const size = Math.random() * 3 + 1.5;
+      p.style.cssText = `width:${size}px;height:${size}px;left:${Math.random()*100}%;--dur:${10+Math.random()*10}s;--delay:-${Math.random()*15}s;`;
+      container.appendChild(p);
+    }
+  </script> -->
+</body>
+</html>
